@@ -1,0 +1,17 @@
+{
+  "stt": 1,
+  "msg": "OK",
+  "data": {
+    "id": 21412,
+    "qr_url": "https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=",
+    "payment_url": "",
+    "code": "NO86",
+    "phoneNum": "8260113092004",
+    "amount": 1000,
+    "phoneName": "NGUYEN TUNG DUONG",
+    "chargeType": "bank",
+    "redirect": "/payment/21412?token=931755b31c216871a44337204bc4ebf1c0b3d2",
+    "bank_provider": "MBBANK",
+    "timeToExpired": 900
+  }
+}

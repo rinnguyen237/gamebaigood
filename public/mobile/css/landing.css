@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.text-border{
+      text-shadow: 0px 0px 5px aqua;
+}
+.text-border-1{
+      text-shadow: 0px 0px 5px red;
+      color: violet;
+}
+.box_chill{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.container1 {
+    width: 100% !important;
+    background: url("../image/bg.png") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 100vh;
+    color: #fff;
+}
+.main_ios{
+    position: relative;
+    width: 100%;
+    background : url('../image/bg_popup.png') center center no-repeat;
+     background-size: contain;
+    min-height: 80vh;
+    margin-top: 10px;
+}
+.nav {
+    padding-top: 10px;
+}
+
+.nav ul {
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.nav-sp {
+    padding-top: 40px;
+    display: none;
+}
+
+
+.nav-sp ul {
+    margin-top: 50px;
+    padding: 0;
+}
+
+.nav-sp ul li {
+    display: inline-block;
+    width: 45%;
+}
+
+.nav-sp ul li img {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    background: url("../image/Ud-2.png") center center no-repeat;
+    background-size: contain;
+    min-height: 60vh;
+    margin-top: 20px;
+}
+
+.main img {
+    width: 80%;
+}
+
+.group {
+    margin-top: -4em;
+}
+
+.group ul {
+    width: 100%;
+    padding: 47px 0 0 0;
+}
+.group img {
+    width: 80%;
+}
+.group ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.center-popup {
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    display: none;
+}
+
+.popup {
+    width: 550px;
+    height: 550px;
+    background: url("../image/bg_popup.png") center center no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.popup ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.popup ul li img {
+    width: 65%;
+}
+
+.popup .popup-content {
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    top: -8%;
+    right: -10%;
+}
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .nav {
+        display: none !important;
+    }
+
+    .nav-sp {
+        display: block;
+    }
+.nav-sp img {
+         width: 250px;
+    height: 250px;
+    }
+    .main {
+        background: url("../image/Ud-2-sp.png") margin-left margin-left no-repeat;
+        background-size: contain;
+        min-height: 55vh;
+    }
+
+    .main img {
+        width: 100%;
+    }
+
+    .group {
+        margin: 0;
+    }
+
+    .group ul li {
+        width: 45%;
+    }
+
+    .group ul li img {
+        width: 100%;
+    }
+
+    .center-popup {
+        top: 25%;
+    }
+
+    .popup {
+        width: 75%;
+        height: auto;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    /*.nav {*/
+    /*    display: none;*/
+    /*}*/
+
+    /*.nav-sp {*/
+    /*    display: block;*/
+    /*}*/
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    .main {
+        /*min-height: 65vh;*/
+    }
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .main {
+        margin: 0;
+        min-height: 75vh;
+    }
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .main {
+        margin: 0;
+        min-height: 52vh;
+    }
+
+}
+
+@media screen
+and (min-device-width: 1025px)
+and (max-device-width: 1366px) {
+
+    .main {
+        margin: 0;
+        min-height: 70vh;
+    }
+
+}
+
+@media screen
+and (min-device-width: 1367px)
+and (max-device-width: 1600px) {
+
+
+}
+
+
